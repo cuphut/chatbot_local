@@ -1,0 +1,23 @@
+# Bỏ qua file .env
+.env
+
+# Bỏ qua thư mục virtual environment
+.venv/
+
+data_source/generative_ai/pdfs/
+
+# Bỏ qua các thư mục __pycache__ và file biên dịch
+__pycache__/
+*.py[cod]
+
+# Bỏ VSCode settings nếu có
+.vscode/
+
+# Bỏ file database nếu có
+*.sqlite3
+*.db
+
+faiss_db/
+
+# Ignore Jupyter Notebook checkpoints nếu bạn dùng notebook
+.ipynb_checkpoints/
