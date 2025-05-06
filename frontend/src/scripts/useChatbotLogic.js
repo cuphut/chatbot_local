@@ -113,7 +113,7 @@ export const useChatbotLogic = () => {
     }, 50);
 
     try {
-      const res = await fetch("http://localhost:8000/api/chat", {
+      const res = await fetch("https://chatbot-local.onrender.com/api/chat", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ message: text, model: selectedModel }),
