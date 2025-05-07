@@ -4,7 +4,6 @@
 # Bỏ qua thư mục virtual environment
 .venv/
 
-data_source/generative_ai/pdfs/
 
 # Bỏ qua các thư mục __pycache__ và file biên dịch
 __pycache__/
