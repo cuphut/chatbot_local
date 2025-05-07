@@ -26,7 +26,7 @@ app = FastAPI()
 app.add_middleware(
     CORSMiddleware,
     allow_origins=[
-        "http://localhost:3000"
+        "http://localhost:3000",
         "https://chatbot-watatek.netlify.app"
     ],
     allow_methods=["*"],
